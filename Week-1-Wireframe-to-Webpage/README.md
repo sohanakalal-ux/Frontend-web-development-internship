@@ -127,18 +127,6 @@ Through this project, I gained practical experience in:
 
 ---
 
-## 📁 Project Structure
-
-```text
-Wireframe-to-Webpage/
-│
-├── index.html
-├── style.css
-└── README.md
-```
-
----
-
 ## 📌 Conclusion
 
 This project successfully demonstrates the process of transforming a wireframe into a responsive and visually appealing webpage using HTML and CSS. It strengthened foundational frontend development skills and provided hands-on experience in implementing real-world web layouts.
