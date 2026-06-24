@@ -127,17 +127,6 @@ Through this project, I gained practical experience in:
 
 ---
 
-## 📁 Project Structure
-
-```text
-Responsive-Web-Design/
-│
-├── index.html
-├── style.css
-└── README.md
-```
-
----
 
 ## 📌 Conclusion
 
