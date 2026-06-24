@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Productivity Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background Animation -->
+    <div class="background-animation"></div>
+
+    <div class="container">
+
+        <!-- Top Bar -->
+        <div class="top-bar">
+
+            <h1>✨ Productivity Dashboard</h1>
+
+            <button id="themeToggle">🌙</button>
+
+        </div>
+
+        <!-- Clock -->
+        <div class="clock-box">
+
+            <h2 id="clock">00:00:00</h2>
+
+            <p id="date"></p>
+
+        </div>
+
+        <!-- Quote -->
+        <div class="quote-box">
+
+            <p id="quote">"Success starts with small efforts."</p>
+
+        </div>
+
+        <!-- Search -->
+        <div class="search-box">
+
+            <input type="text"
+                   id="searchInput"
+                   placeholder="Search tasks...">
+
+        </div>
+
+        <!-- Progress -->
+        <div class="progress-section">
+
+            <h3>Daily Progress</h3>
+
+            <div class="progress-bar">
+
+                <div class="progress-fill"
+                     id="progressFill"></div>
+
+            </div>
+
+            <p id="progressText">0% Completed</p>
+
+        </div>
+
+        <!-- Task Input -->
+        <div class="task-input">
+
+            <input type="text"
+                   id="taskInput"
+                   placeholder="Enter a new task...">
+
+            <select id="priority">
+
+                <option value="High">🔥 High</option>
+
+                <option value="Medium">⭐ Medium</option>
+
+                <option value="Low">✅ Low</option>
+
+            </select>
+
+            <button id="addTaskBtn">Add</button>
+
+        </div>
+
+        <!-- Filters -->
+        <div class="filters">
+
+            <button class="filter-btn active"
+                    data-filter="all">
+                All
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="completed">
+                Completed
+            </button>
+
+            <button class="filter-btn"
+                    data-filter="pending">
+                Pending
+            </button>
+
+        </div>
+
+        <!-- Task List -->
+        <ul id="taskList"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
